@@ -4,7 +4,10 @@ import pandas as pd
 import numpy as np
 import random
 
-from scripts.backtester import Backtester
+from training.backtester import Backtester
+from training.logger import setup_logging
+
+setup_logging()
 
 random.seed(7)
 np.random.seed(7)
