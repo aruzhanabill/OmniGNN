@@ -1,0 +1,27 @@
+{
+    "T": 996,
+    "N": 11,
+    "E": 2,
+    "F": 16,
+    "n_stocks": 10,
+    "n_industries": 1,
+    "paths": [
+        "SS",
+        "SI",
+        "SIS"
+    ],
+    "feature_nodes": [
+        "MSFT",
+        "IBM",
+        "CRM",
+        "INTU",
+        "NOW",
+        "ACN",
+        "TXN",
+        "ADBE",
+        "MU",
+        "PANW",
+        "IT"
+    ],
+    "start_date": "2019-01-04"
+}
