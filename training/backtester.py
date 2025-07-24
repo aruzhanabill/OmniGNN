@@ -122,6 +122,17 @@ class Backtester:
             if best_model_state is not None:
                 model.load_state_dict(best_model_state)
 
+            # ~~~ Save model checkpoint ~~~
+            model_save_path = os.path.join(results_dir, "model_checkpoints")
+            os.makedirs(model_save_path, exist_ok=True)
+            checkpoint_path = os.path.join(model_save_path, f"model_{t2.date()}_to_{t3.date()}.pt")
+            torch.save({
+                'model_state_dict': best_model_state,
+                'mu_y': mu_y,
+                'sigma_y': sigma_y,
+            }, checkpoint_path)
+            logging.info(f"Saved model to {checkpoint_path}")
+
             loss_plot_path = os.path.join(results_dir, f"Loss_{t2.date()}_to_{t3.date()}_{tag}.png")
             plot_loss_curve(loss_history, val_loss_history, save_path=loss_plot_path)
 
