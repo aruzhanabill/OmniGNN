@@ -1,0 +1,15 @@
+2025-07-24 15:10:33,501 | INFO | Rolling Window: Train 2019-01-04 to 2019-07-04 | Test 2019-09-04 to 2019-11-04
+2025-07-24 15:10:38,595 | INFO | Epoch 1/10 | Train Loss: 1.0494 | Val Loss: 0.9540
+2025-07-24 15:10:43,278 | INFO | Epoch 2/10 | Train Loss: 1.0101 | Val Loss: 0.9748
+2025-07-24 15:10:48,003 | INFO | Epoch 3/10 | Train Loss: 1.0181 | Val Loss: 0.9548
+2025-07-24 15:10:52,693 | INFO | Epoch 4/10 | Train Loss: 1.0207 | Val Loss: 0.9466
+2025-07-24 15:10:57,395 | INFO | Epoch 5/10 | Train Loss: 1.0234 | Val Loss: 0.9392
+2025-07-24 15:11:02,072 | INFO | Epoch 6/10 | Train Loss: 1.0071 | Val Loss: 0.9430
+2025-07-24 15:11:06,771 | INFO | Epoch 7/10 | Train Loss: 0.9987 | Val Loss: 0.9342
+2025-07-24 15:11:11,541 | INFO | Epoch 8/10 | Train Loss: 0.9842 | Val Loss: 0.9393
+2025-07-24 15:11:16,222 | INFO | Epoch 9/10 | Train Loss: 1.0008 | Val Loss: 0.9420
+2025-07-24 15:11:20,943 | INFO | Epoch 10/10 | Train Loss: 1.0054 | Val Loss: 0.9263
+2025-07-24 15:11:22,897 | INFO | Train MSE: 0.0002 | Test MSE: 0.0002
+2025-07-24 15:11:23,349 | INFO | Rolling Window: Train 2019-03-04 to 2019-09-04 | Test 2019-11-04 to 2020-01-04
+2025-07-24 15:11:28,162 | INFO | Epoch 1/10 | Train Loss: 1.0881 | Val Loss: 1.1189
+2025-07-24 15:11:32,937 | INFO | Epoch 2/10 | Train Loss: 1.0707 | Val Loss: 1.0957
