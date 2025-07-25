@@ -2,6 +2,9 @@
 
 [![standard-readme compliant](https://img.shields.io/badge/project_page%20-%20?link=https%3A%2F%2Faruzhanabill.github.io%2Fcsuremm-gnn%2F)](https://aruzhanabill.github.io/csuremm-gnn/)
 
+
+[![arXiv] (https://img.shields.io/badge/arXiv_paper-2502.1903-A82121?labelColor=5D5D5D)] (https://drive.google.com/file/d/1tEP-hnOzikhs5X4bJmCRFy7TeKR0sZsK/view?usp=sharing)
+
 This repository is the official implementation of our [Structure Over Signal: Globalized Approach to Multirelational GNNs][paper].
 
 [paper]: https://drive.google.com/file/d/1tEP-hnOzikhs5X4bJmCRFy7TeKR0sZsK/view?usp=sharing
