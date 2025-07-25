@@ -18,7 +18,7 @@ In recent years, Graph Neural Networks (GNNs) have been established as the stand
 The script has been tested running under Python 3.13.0, with the following packages installed (along with their dependencies):
 * `numpy==2.3.0`
 * `scipy==1.15.3`
-* `toch ==2.7.1`
+* `torch ==2.7.1`
 
 ## Usage
 
