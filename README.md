@@ -20,12 +20,6 @@ The script has been tested running under Python 3.13.0, with the following packa
 * `scipy==1.15.3`
 * `torch ==2.7.1`
 
-## Usage
-
-```sh
-```
-
-
 ## Contributing
 This project welcomes contributions and suggestions. 
 
